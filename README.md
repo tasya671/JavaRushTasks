@@ -26,4 +26,24 @@ https://github.com/tasya671/JavaRushTasks/tree/master/3.JavaMultithreading/src/c
 7. Перехват исключения
 https://github.com/tasya671/JavaRushTasks/tree/master/3.JavaMultithreading/src/com/javarush/task/task25/task2505
 
-8. 
+https://github.com/tasya671/JavaRushTasks/tree/master/3.JavaMultithreading/src/com/javarush/task/task25/task2512
+
+8. CountDownLatch
+https://github.com/tasya671/JavaRushTasks/tree/master/3.JavaMultithreading/src/com/javarush/task/task27/task2711
+
+9. Producer–consumer
+https://github.com/tasya671/JavaRushTasks/tree/master/3.JavaMultithreading/src/com/javarush/task/task27/task2709
+
+10. Рефакторинг
+https://github.com/tasya671/JavaRushTasks/tree/master/3.JavaMultithreading/src/com/javarush/task/task29/task2909
+
+11. Чат
+https://github.com/tasya671/JavaRushTasks/tree/master/3.JavaMultithreading/src/com/javarush/task/task30/task3008
+
+12. Archiver
+https://github.com/tasya671/JavaRushTasks/tree/master/3.JavaMultithreading/src/com/javarush/task/task31/task3110
+
+13. MVC
+https://github.com/tasya671/JavaRushTasks/tree/master/3.JavaMultithreading/src/com/javarush/task/task36/task3608
+
+
