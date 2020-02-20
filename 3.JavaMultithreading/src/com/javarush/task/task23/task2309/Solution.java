@@ -1,7 +1,6 @@
 package com.javarush.task.task23.task2309;
 
 import com.javarush.task.task23.task2309.vo.*;
-import com.sun.org.apache.regexp.internal.RE;
 
 import java.util.List;
 

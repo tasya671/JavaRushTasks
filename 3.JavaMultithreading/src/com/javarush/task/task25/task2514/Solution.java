@@ -1,7 +1,5 @@
 package com.javarush.task.task25.task2514;
 
-import sun.awt.windows.ThemeReader;
-
 /*
 Первый закон Финэйгла: если эксперимент удался, что-то здесь не так...
 */

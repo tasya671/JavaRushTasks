@@ -14,11 +14,20 @@ import java.io.StringWriter;
 public class Solution {
     public static void main(String[] args) throws IOException {
         Second s = (Second) convertOneToAnother(new First(), Second.class);
+        System.out.println(s.getClass().getSimpleName());
         First f = (First) convertOneToAnother(new Second(), First.class);
+        System.out.println(f.getClass().getSimpleName());
     }
 
     public static Object convertOneToAnother(Object one, Class resultClassObject) throws IOException {
-        return null;
+
+        ObjectMapper mapper = new ObjectMapper();
+        StringWriter writer = new StringWriter();
+        mapper.writeValue(writer, one);
+        String classOne = one.getClass().getSimpleName().toLowerCase();
+        String json = writer.toString().replaceFirst(classOne, resultClassObject.getSimpleName().toLowerCase());System.out.println(json);
+         return mapper.readValue(new StringReader(json), resultClassObject);
+
     }
 
     @JsonTypeInfo(use = JsonTypeInfo.Id.NAME,  property="className")
